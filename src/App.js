@@ -1,5 +1,6 @@
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import BookShelfPage from './pages/BookShelfPage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
+            <Route path="/bookshelf" component={BookShelfPage} />
             <Route path="/articles-list" component={ArticlesListPage} />
             <Route path="/article/:name" component={ArticlePage} />
             <Route component={NotFoundPage} />
