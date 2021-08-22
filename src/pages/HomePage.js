@@ -11,7 +11,7 @@ const HomePage = () => (
             <BiCalendarEvent className="event" />
             September 12, 1pm est
         </h3>
-        <img src={Cover} alt="And Then There Were None by Agatha Christie book cover" />
+        <img src={Cover} width="300" alt="And Then There Were None by Agatha Christie book cover" />
         <h3>
             <i>And Then There Were None </i>by Agatha Christie
         </h3>

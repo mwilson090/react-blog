@@ -1,8 +1,7 @@
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import BookShelfPage from './pages/BookShelfPage';
-import ArticlesListPage from './pages/ArticlesListPage';
-import ArticlePage from './pages/ArticlePage';
+import LinksPage from './pages/LinksPage';
 import NotFoundPage from './pages/NotFoundPage';
 import NavBar from './NavBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -18,8 +17,7 @@ function App() {
             <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
             <Route path="/bookshelf" component={BookShelfPage} />
-            <Route path="/articles-list" component={ArticlesListPage} />
-            <Route path="/article/:name" component={ArticlePage} />
+            <Route path="/links" component={LinksPage} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>
