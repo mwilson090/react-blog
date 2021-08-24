@@ -4,7 +4,6 @@ import bookshelf from './bookshelf-content';
 
 const BookShelfPage = () => (
     <>
-        <h1>Book Shelf</h1>
         <BookList bookshelf={bookshelf} />
     </>
 );
