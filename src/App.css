@@ -90,8 +90,6 @@ nav a:hover {
   display: inline-block;
   margin-left: 50px;
   margin-top: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
   color: white;
   position: fixed;
   font-family: 'Alegreya';
