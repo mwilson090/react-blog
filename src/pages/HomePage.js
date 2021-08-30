@@ -9,10 +9,10 @@ const HomePage = () => (
         </div>
         <div className="meeting">
             <h1>
+                <BiCalendarEvent className="event" color="#ffccbb" />
                 Upcoming Meeting
             </h1>
             <h3>
-                <BiCalendarEvent className="event" color="#ffccbb" />
                 September 12, 1pm est
             </h3>
             <h3>
