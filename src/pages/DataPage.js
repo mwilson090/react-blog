@@ -11,7 +11,7 @@ const DataPage = () => (
             <GenrePieChart />
         </div>
         <h1>
-            Pages Read
+            Pages Read in 2021
         </h1>
         <div className="data">
             <PagesLine />

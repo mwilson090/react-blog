@@ -12,7 +12,8 @@ const PagesLine = () => {
             parent: { border: "1px solid #ccc"}
           }}
           data={[
-            { x: "February", y: 160},
+            { x: "Jan", y: 0},
+            { x: "Feb", y: 160},
             { x: "March", y: 418 },
             { x: "April", y: 630 },
             { x: "May", y: 941 },
