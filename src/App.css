@@ -1,6 +1,7 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Alegreya';
   font-size: 18px;
+  color: #445554;
 }
 
 button {
@@ -110,6 +111,13 @@ nav a:hover {
   padding: 16px 0 0 0;
   margin: auto;
   
+}
+
+.data {
+  width: 500px;
+  background-color: #ffccbb;
+  border-radius: 20px;
+  opacity: 0.8;
 }
 
 .article-list-item p {

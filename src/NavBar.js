@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GoodReads from './goodreads.jpg';
-import {BiHomeHeart, BiBookBookmark, BiSmile} from 'react-icons/bi';
+import {BiHomeHeart, BiBookBookmark, BiSmile, BiMeteor} from 'react-icons/bi';
 
 const NavBar = () => (
     <div classname="nav-bar">
@@ -16,6 +16,9 @@ const NavBar = () => (
                     </li>
                     <li>
                         <Link to ="/bookshelf"><BiBookBookmark className="event" color="#ffccbb" />Book Shelf</Link>
+                    </li>
+                    <li>
+                        <Link to ="/data"><BiMeteor className="event" color="#ffccbb" />Data</Link>
                     </li>
                     <li className="outside=links">
                         <a href="https://www.goodreads.com/group/show/1143534-ma-d-je-n-stic-book-club">
