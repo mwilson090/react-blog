@@ -18,6 +18,14 @@ h3, h4 {
   margin-bottom: 0;
 }
 
+.footer {
+  position: relative;
+  /* negative value of footer height */
+  height: 10px;
+  clear: both;
+  text-align: center;
+}
+
 .event {
   padding-right: 5px;
 }
@@ -76,6 +84,8 @@ nav a:hover {
   max-width: 800px;
   margin: auto;
   padding-top: 64px;
+  overflow: auto;
+  padding-bottom: 70px;
 }
 
 .home {
