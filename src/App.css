@@ -102,7 +102,7 @@ nav a:hover {
   margin-left: 50px;
   margin-top: 100px;
   color: white;
-  position: fixed;
+  position: absolute;
   font-family: 'Alegreya';
   background-color: #445554;
   border-radius: 20px;
