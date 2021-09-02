@@ -21,7 +21,7 @@ function App() {
             <Route component={NotFoundPage} />
           </Switch>
         </div>
-        <h5 className="footer">© 2021 Jennifer Peña annd Madeline Wilson. All rights reserved.</h5>
+        <h5 className="footer">© 2021 Jennifer Peña and Madeline Wilson. All rights reserved.</h5>
       </div>
     </Router>
   );
