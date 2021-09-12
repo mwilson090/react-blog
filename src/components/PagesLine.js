@@ -19,7 +19,8 @@ const PagesLine = () => {
             { x: "May", y: 941 },
             { x: "June", y: 1261 },
             { x: "July", y: 1261 },
-            { x: "August", y: 1565 }
+            { x: "Aug", y: 1565 },
+            { x: "Sept", y: 1837 }
           ]}
           interpolation="bundle"
         />

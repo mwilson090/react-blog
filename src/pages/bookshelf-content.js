@@ -41,6 +41,13 @@ const bookshelf = [
         pages: '304',
         date: '08/08/21',
         image: 'hobbit',
+    },      {
+        title: 'And Then There Were None',
+        author: 'Agatha Christie',
+        genre: 'Mystery',
+        pages: '272',
+        date: '09/12/21',
+        image: 'none',
     }
 ];
 
