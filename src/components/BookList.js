@@ -10,6 +10,8 @@ const BookList = ({ bookshelf }) => {
                 <h4>Genre: {book.genre}</h4>
                 <h4>Pages: {book.pages}</h4>
                 <h4>Meeting Date: {book.date}</h4>
+                <h4>Group Rating: {book.rating}
+                </h4>
             </div>
         ))}
         </>

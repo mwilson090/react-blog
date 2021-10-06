@@ -6,6 +6,7 @@ const bookshelf = [
         pages: '160',
         date: '02/07/21',
         image: 'convenience',
+        rating: '-',
     },    {
         title: 'City of Thieves',
         author: 'David Benioff',
@@ -13,6 +14,7 @@ const bookshelf = [
         pages: '258',
         date: '03/14/21',
         image: 'city',
+        rating: '-',
     },     {
        title: 'Howl\'s Moving Castle',
        author: 'Diana Wynne Jones',
@@ -20,6 +22,7 @@ const bookshelf = [
        pages: '212',
        date: '04/18/21',
        image: 'howls',
+       rating: '-',
     },      {
         title: 'The Handmaid\'s Tale',
         author: 'Margaret Atwood',
@@ -27,6 +30,7 @@ const bookshelf = [
         pages: '311',
         date: '05/30/21',
         image: 'handmaids',
+        rating: '-',
     },      {
         title: 'Klara and the Sun',
         author: 'Kazuo Ishiguro',
@@ -34,6 +38,7 @@ const bookshelf = [
         pages: '320',
         date: '06/26/21',
         image: 'klara',
+        rating: '-',
     },      {
         title: 'The Hobbit',
         author: 'J.R.R. Tolkien',
@@ -41,6 +46,7 @@ const bookshelf = [
         pages: '304',
         date: '08/08/21',
         image: 'hobbit',
+        rating: '-',
     },      {
         title: 'And Then There Were None',
         author: 'Agatha Christie',
@@ -48,7 +54,16 @@ const bookshelf = [
         pages: '272',
         date: '09/12/21',
         image: 'none',
-    }
+        rating: '4.31/5',
+    },      {
+        title: 'Interior Chinatown',
+        author: 'Charles Yu',
+        genre: 'Literary Fiction',
+        pages: '288',
+        date: '10/10/21',
+        image: 'interior',
+        rating: 'TBD',
+    },
 ];
 
 export default bookshelf;
