@@ -26,7 +26,7 @@ const HomePage = () => (
             </div>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={CoverNext} width="300px" alt="Interior Chinatown by Charles Yu picture" />
+                    <img src={CoverNext} width="300px" alt="Fever Dream by Samanta Schweblin picture" />
                 </div>
                 <div className="meeting">
                     <h1>
