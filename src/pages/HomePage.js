@@ -34,7 +34,7 @@ const HomePage = () => (
                         On Deck
                     </h1>
                     <h3>
-                        Date TBD
+                        November 14, 1pm est
                     </h3>
                     <h3>
                         <i>Fever Dream </i>by Samanta Schweblin
