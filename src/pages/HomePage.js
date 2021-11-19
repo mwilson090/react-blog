@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiCalendarEvent } from "react-icons/bi";
-import CoverNext from '../covers/fever.jpg';
-import Cover from '../covers/interior.jpg';
+import Cover from '../covers/fever.jpg';
+import CoverNext from '../covers/first.jpg';
 import { Fade } from 'react-slideshow-image';
 
 const HomePage = () => (
@@ -9,7 +9,7 @@ const HomePage = () => (
         <Fade>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={Cover} width="300px" alt="Interior Chinatown by Charles Yu picture" />
+                    <img src={Cover} width="300px" alt="Fever Dream by Samanta Schweblin picture" />
                 </div>
                 <div className="meeting">
                     <h1>
@@ -17,16 +17,16 @@ const HomePage = () => (
                         Upcoming Meeting
                     </h1>
                     <h3>
-                        October 10, 1pm est
+                        November 21, 1pm est
                     </h3>
                     <h3>
-                        <i>Interior Chinatown </i>by Charles Yu
+                        <i>Fever Dream </i>by Samanta Schweblin
                     </h3>
                 </div>
             </div>
             <div className="each-fade">
                 <div className="image-container">
-                    <img src={CoverNext} width="300px" alt="Fever Dream by Samanta Schweblin picture" />
+                    <img src={CoverNext} width="300px" alt="First Person Singular by Haruki Murakami picture" />
                 </div>
                 <div className="meeting">
                     <h1>
@@ -34,10 +34,10 @@ const HomePage = () => (
                         On Deck
                     </h1>
                     <h3>
-                        November 14, 1pm est
+                        December
                     </h3>
                     <h3>
-                        <i>Fever Dream </i>by Samanta Schweblin
+                        <i>First Person Singular</i> by Haruki Murakami
                     </h3>
                 </div>
             </div>
