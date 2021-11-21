@@ -62,6 +62,14 @@ const bookshelf = [
         pages: '288',
         date: '10/10/21',
         image: 'interior',
+        rating: '3.83',
+    },      {
+        title: 'Fever Dream',
+        author: 'Samanta Schweblin',
+        genre: 'Magical Realism',
+        pages: '183',
+        date: '11/21/21',
+        image: 'fever',
         rating: 'TBD',
     },
 ];

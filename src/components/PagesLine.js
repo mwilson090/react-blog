@@ -14,14 +14,15 @@ const PagesLine = () => {
           data={[
             { x: "Jan", y: 0},
             { x: "Feb", y: 160},
-            { x: "March", y: 418 },
-            { x: "April", y: 630 },
+            { x: "Mar", y: 418 },
+            { x: "Apr", y: 630 },
             { x: "May", y: 941 },
-            { x: "June", y: 1261 },
-            { x: "July", y: 1261 },
+            { x: "Jun", y: 1261 },
+            { x: "Jul", y: 1261 },
             { x: "Aug", y: 1565 },
-            { x: "Sept", y: 1837 },
+            { x: "Sep", y: 1837 },
             { x: "Oct", y: 2125 },
+            { x: "Nov", y: 2308 },
           ]}
           interpolation="bundle"
         />

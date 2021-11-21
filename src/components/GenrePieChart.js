@@ -12,6 +12,7 @@ const GenrePieChart = () => {
           { x: 5, y: 1, label: "Dystopian"},
           { x: 6, y: 1, label: "Mystery"},
           { x: 7, y: 1, label: "Science Fiction"},
+          { x: 8, y: 1, label: "Magical Realism"},
           
         ]}
         theme={VictoryTheme.grayscale}
