@@ -23,6 +23,7 @@ const PagesLine = () => {
             { x: "Sep", y: 1837 },
             { x: "Oct", y: 2125 },
             { x: "Nov", y: 2308 },
+            { x: "Dec", y: 2548 },
           ]}
           interpolation="bundle"
         />
