@@ -2,7 +2,7 @@ const bookshelf = [
     {
         title: 'Convenience Store Woman',
         author: 'Sayaka Murata',
-        genre: 'Slice of Life Fiction',
+        genre: 'Literary Fiction',
         pages: '160',
         date: '02/07/21',
         image: 'convenience',
