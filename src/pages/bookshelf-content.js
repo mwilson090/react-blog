@@ -111,6 +111,14 @@ const bookshelf = [
         date: '05/22/22',
         image: 'plow',
         rating: '4.25',
+    },      {
+        title: 'The House in the Cerulean Sea',
+        author: 'T.J. Klune',
+        genre: 'Fantasy',
+        pages: '394',
+        date: '06/25/22',
+        image: 'cerulean',
+        rating: '4.10',
     },
 ];
 

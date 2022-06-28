@@ -5,7 +5,7 @@ const GenrePieChart = () => {
     return (
       <VictoryPie
         data={[
-          { x: 1, y: 2, label: "Fantasy" },
+          { x: 1, y: 3, label: "Fantasy" },
           { x: 2, y: 4, label: "Literary Fiction"},
           { x: 3, y: 2, label: "Mystery"},
           { x: 4, y: 1, label: "Dystopian"},
